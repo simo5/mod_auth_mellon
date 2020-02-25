@@ -315,6 +315,10 @@ typedef struct am_dir_cfg_rec {
 
     /* List of domains we can redirect to. */
     const char * const *redirect_domains;
+
+    /* Send Expect Header. */
+    int send_expect_header;
+
 } am_dir_cfg_rec;
 
 /* Bitmask for PAOS service options */
